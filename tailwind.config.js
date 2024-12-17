@@ -11,6 +11,9 @@ module.exports = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      screens: {
+        'ipad-pro': { 'raw': '(min-width: 1024px) and (max-height: 1366px)' }, // Custom breakpoint for iPad Pro
+      },
     },
   },
   plugins: [],
